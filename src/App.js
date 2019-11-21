@@ -1,10 +1,17 @@
 import React from 'react';
 import { ApolloProvider } from '@apollo/react-hooks';
-import client from './client';
+import ApolloClient from 'apollo-boost';
+
+import Ships from './components/ships';
+
+const client = new ApolloClient({
+  uri: 'https://api.spacex.land/graphql/'
+});
+
 
 const App = () => (
   <ApolloProvider client={client}>
-    <div>Hello</div>
+    <Ships />
   </ApolloProvider>
 )
 
