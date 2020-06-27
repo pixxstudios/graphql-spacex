@@ -1,14 +1,3 @@
-import { gql } from 'apollo-boost';
-
-const SHIPS_QUERY = gql`
-      {
-        ships {
-          image
-          id
-          weight_kg
-          name
-        }
-    }
-  `;
+import SHIPS_QUERY from './ships';
 
 export default SHIPS_QUERY;
