@@ -2,9 +2,9 @@ language: node_js
 node_js:
      - 12
 
-deploy:
+deploy: &heroku
     provider: heroku
-    api_key: HEROKU_API_KEY
+    api_key: $HEROKU_API_KEY
     app: graphql-spacex-1
     on:
         repo: pixxstudios/graphql-spacex
