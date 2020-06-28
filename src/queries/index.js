@@ -1,3 +1,7 @@
 import SHIPS_QUERY from './ships';
+import GET_SHIP_QUERY from './ship';
 
-export default SHIPS_QUERY;
+export {
+    SHIPS_QUERY,
+    GET_SHIP_QUERY
+};

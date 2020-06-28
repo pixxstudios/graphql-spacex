@@ -14,7 +14,7 @@ const App = () => (
   <Router>
     <ApolloProvider client={client}>
       <Switch>
-      <Route path="/ship">
+      <Route path="/ship/:id">
           <ShipInfo />
         </Route>
         <Route path="/">

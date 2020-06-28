@@ -1,6 +1,6 @@
 import React from 'react';
 import { useQuery } from '@apollo/react-hooks';
-import SHIPS_QUERY from '../queries/index';
+import { SHIPS_QUERY } from '../queries';
 import Loader from './loader';
 import Ship from './ship';
 import './ships.css';
