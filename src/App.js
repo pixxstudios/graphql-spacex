@@ -4,6 +4,7 @@ import ApolloClient from 'apollo-boost';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 import Ships from './components/ships';
+import ShipInfo from './components/ship-info';
 
 const client = new ApolloClient({
   uri: 'https://api.spacex.land/graphql/',
@@ -14,7 +15,7 @@ const App = () => (
     <ApolloProvider client={client}>
       <Switch>
       <Route path="/ship">
-          <h3>ship</h3>
+          <ShipInfo />
         </Route>
         <Route path="/">
           <Ships />
