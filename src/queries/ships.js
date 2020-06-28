@@ -2,7 +2,7 @@ import { gql } from 'apollo-boost';
 
 const SHIPS_QUERY = gql`
 {
-  ships(limit: 10) {
+  ships(limit: 100) {
     image
     id
     attempted_landings

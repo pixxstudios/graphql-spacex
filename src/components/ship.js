@@ -4,7 +4,9 @@ import './ship.css';
 const Ship = (props) => {
     return (
         <div className="ship">
-            <img src={props.image} alt="" className="ship-img"/>
+            <div className="imageContainer">
+                <img src={props.image} alt="" className="ship-img"/>
+            </div>
             <h4>{props.name}</h4>
         </div>
     );
