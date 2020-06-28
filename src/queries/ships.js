@@ -5,17 +5,8 @@ const SHIPS_QUERY = gql`
   ships(limit: 100) {
     image
     id
-    attempted_landings
-    model
-    roles
-    speed_kn
-    successful_landings
-    url
-    weight_kg
-    year_built
+    name
   }
-}
-
-  `;
+}`;
 
 export default SHIPS_QUERY;

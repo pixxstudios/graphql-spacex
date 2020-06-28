@@ -17,14 +17,21 @@
     display: inline-block;
     margin: 10px;
     border: 1px solid black;
-    height: 300px;
+    height: 250px;
     width: 300px;
-    box-shadow: 1px 1px 10px blue;
     cursor: pointer;
+    box-shadow: 1px 1px 10px orange;
 }
+
+.ship h4 {
+    width: 100%;
+    text-align: center;
+}
+
 
 .ship:hover {
     transform: scale(1.05, 1.05);
+    box-shadow: 1px 1px 10px blue;
 }
 
 .ship:active {
