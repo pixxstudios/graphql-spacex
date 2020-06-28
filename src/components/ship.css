@@ -1,0 +1,10 @@
+.ship-img {
+    width: 300px;
+}
+
+.ship {
+    display: inline-block;
+    margin: 10px;
+    border: 1px solid black;
+    height: 200px;
+}
