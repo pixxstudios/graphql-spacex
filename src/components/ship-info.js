@@ -14,6 +14,7 @@ const ShipInfo = () => {
 
     if (loading) return <Loader />;
     if (error) return <h3>Something went wrong...</h3>;
+
     const { ship } = data;
     return (
         <div className="container">
