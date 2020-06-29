@@ -1,8 +1,32 @@
 .container {
-    margin: 20px;
+    background-color: steelblue;
+    height: 100vh;
 }
 
 .image {
     width: 400px;
-    border: 10px solid black;
+    border: 10px solid lightblue;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    height: 25px;
+    background-color: lightblue;
+    padding: 10px;
+    margin: 10px;
+    margin-left: 0px;
+}
+
+heading {
+    display: flex;
+    align-items: center;
+    height: 25px;
+    background-color: #6babe2;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    margin-left: 0px;
+    margin-top: 0px;
+    font-weight: 600;
 }
