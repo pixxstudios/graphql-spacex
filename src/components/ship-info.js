@@ -18,7 +18,7 @@ const ShipInfo = () => {
     const { ship } = data;
     return (
         <div className="container">
-            <heading>{ ship.name }</heading>
+            <header>{ ship.name }</header>
             <img src={ship.image} alt="" className="image" />
             <div className="info">Home port: {ship.home_port}</div>
             <a href={ship.url} className="info" target="blank">More info</a>
