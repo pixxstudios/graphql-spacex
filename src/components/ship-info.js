@@ -4,6 +4,8 @@ import { useQuery } from '@apollo/react-hooks';
 import Loader from './loader';
 import { GET_SHIP_QUERY } from '../queries';
 
+import './ship-info.css';
+
 const ShipInfo = () => {
     const { id } = useParams();
     const { loading, error, data } = useQuery(GET_SHIP_QUERY, {
@@ -12,13 +14,13 @@ const ShipInfo = () => {
 
     if (loading) return <Loader />;
     if (error) return <h3>Something went wrong...</h3>;
-
-    console.log(data);
-
-    console.log('id ', id);
-
+    const { ship } = data;
     return (
-        <h3>Ship Info</h3>
+        <div className="container">
+            <h3>Ship Info { ship.name }</h3>
+            <img src={ship.image} alt="" className="image" />
+            Home port: {ship.home_port}
+        </div>
     );
 };
 

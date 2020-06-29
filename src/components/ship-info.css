@@ -1,0 +1,8 @@
+.container {
+    margin: 20px;
+}
+
+.image {
+    width: 400px;
+    border: 10px solid black;
+}
