@@ -22,6 +22,9 @@ const ShipInfo = () => {
             <img src={ship.image} alt="" className="image" />
             <div className="info">Home port: {ship.home_port}</div>
             <a href={ship.url} className="info" target="blank">More info</a>
+            <div className="info">
+                Roles: {ship.roles.map(role => `${role}, `)}
+            </div>
         </div>
     );
 };
