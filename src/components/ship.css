@@ -21,6 +21,7 @@
     width: 300px;
     cursor: pointer;
     box-shadow: 1px 1px 10px orange;
+    background-color: white;
 }
 
 .ship h4 {
