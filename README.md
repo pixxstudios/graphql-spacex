@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/{ORG-or-USERNAME}/{REPO-NAME}.png?branch=master)](https://travis-ci.org/{ORG-or-USERNAME}/{REPO-NAME})
+[![Build Status](https://travis-ci.org/github/pixxstudios/graphql-spacex.png?branch=master)](https://travis-ci.org/github/pixxstudios/graphql-spacex)
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
